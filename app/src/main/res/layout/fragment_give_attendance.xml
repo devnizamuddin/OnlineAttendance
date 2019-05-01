@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue600"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context=".NavigationItem.GiveAttendanceFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_weight="7"
+        android:background="@drawable/getting_information__layout_background"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:weightSum="8">
+
+        <TextView
+            android:id="@+id/name_tv"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="Name : Nizam Uddin Shamrat"
+            android:textColor="@color/gray900"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/id_tv"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="Id : csc019"
+            android:textColor="@color/gray900"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/department_tv"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="Department : CSE"
+            android:textColor="@color/gray900"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/semester_tv"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="Semester : One"
+            android:textColor="@color/gray900"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/section_tv"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="Section : A"
+            android:textColor="@color/gray900"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/subject_tv"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.25"
+            android:background="@drawable/security_code_tv_background"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="Subject : not set yet"
+            android:textColor="@color/gray900"
+            android:textSize="15sp" />
+
+        <TextView
+
+            android:id="@+id/teacher_tv"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1.25"
+            android:background="@drawable/security_code_tv_background"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="Teacher : not set yet"
+            android:textColor="@color/gray900"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/give_attendance_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_backround_one"
+        android:padding="10dp"
+        android:text="Give Attendance"
+        android:textColor="@color/white" />
+
+
+</LinearLayout>

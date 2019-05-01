@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_attendance"
+        android:icon="@drawable/nav_attendance"
+        android:title="Attendance" />
+
+    <item
+        android:id="@+id/navigation_routine"
+        android:title="Routine"
+        android:icon="@drawable/nav_routine"
+        />
+
+
+
+</menu>
